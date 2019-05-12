@@ -24,4 +24,5 @@ class QuestionAdmin(admin.ModelAdmin):
     search_fields = ['question_text']
 
 
+admin.site.site_header = 'Polls Administration'
 admin.site.register(Question, QuestionAdmin)
